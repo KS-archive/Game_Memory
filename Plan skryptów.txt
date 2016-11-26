@@ -1,0 +1,23 @@
+- losowanie 36 kart
+	1. Tworzymy bazę wszystkich możliwych kart.
+	2. Za pomocy pętli losujemy kartę. Przyporządkowujemy jej atrybut class="i" oraz class="card_h". Tworzymy z karty innerHTML dla dwóch div o class="back".
+
+- zakrywamy wszystkie karty
+	1. Klasie card_h przyporzadkowujemy display:none.
+	2. Klasie back przyporządkowujemy czarne tło.
+
+- odkrywanie kart
+	1. Tworzymy: class_v o display:block, licznik_c = 0
+	2. Przy onclick karty zmnieniamy jej klasę z "card_h" na "card_v".
+	3. Robimy licznik++. Przypisujemy klasę klikniętej karty do zmiennej "klasa".
+
+- odkrycie 2 kart
+	1. Ustawiamy if(licznik_c==2).
+	2. Wewnątrz ustawiamy if("klasa"==klasa klikniętej karty)
+		True: usuwamy obecne klasy i dodajemy class="end" o greyscale=(100%)
+		False: usuwamy klasę card_v i dodajemy card_h dla obu zdjęć o class="i"
+
+- zakończenie gry po odkryciu wszystkich kart
+	1. Tworzymy licznik_k
+	2. Przy każdym true z poprzedniego dodajemy licznik_k++.
+	3. Gdy licznik_k==36 kończymy grę. Na planszy pojawia się opcja "Jeszcze raz".

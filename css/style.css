@@ -1,0 +1,224 @@
+body {
+	background: url('../img/glownetlo.jpg');
+	background-size: contain;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: league-gothic, Arial, sans-serif;
+}
+#container{
+	width: 1880px;
+	height: 1040px;
+	margin: 20px;
+}
+#players {
+	height: 460px;
+	width: 220px;
+	margin-top: 290px;
+	margin-bottom: 290px;
+	margin-left: 40px;
+	margin-right: 60px;
+	float: left;
+}
+#player1 {
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	box-shadow: 1px 1px 10px #000000;
+}
+#p1Top {
+	width: 200px;
+	height: 50px;
+	background-color: #3E5B9A;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+}
+#p1Bottom {
+	height: 150px;
+	width: 200px;
+	color: #000;
+	background-color: #b1cafc;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 150px;
+	text-align: center;
+}
+#player2 {
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 10px #000000;
+}
+
+#p2Top {
+	width: 200px;
+	height: 50px;
+	background-color: #d92624;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+}
+#p2Bottom {
+	height: 150px;
+	width: 200px;
+	color: #000;
+	background-color: #fcb2b1;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 80px;
+	line-height: 150px;
+	text-align: center;
+}
+#board {
+	height: 960px;
+	width: 1440px;
+	margin-left: 10px;
+	margin-right: 110px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: url('../img/tlo.jpg');
+	background-size: contain;
+	float: left;
+	color: #000000;
+	box-shadow: 1px 1px 10px #000000;
+}
+img{
+	height: 110px;
+	width: 110px;
+	z-index: 100;
+	border-radius: 10px;
+}
+.card{
+	margin: 10px 10px;
+	width: 100px;
+	height: 100px;
+	background: url('../img/karta.jpg');
+	background-size: contain;
+	float: left;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px #000000;
+}
+.card:hover{
+	margin: 5px 5px;
+	width: 110px;
+	height: 110px;
+	background-color: #000000;
+	float: left;
+}
+.card_h{
+	opacity: 0;
+	cursor: pointer;
+}
+.card_v{
+	opacity: 1;
+	cursor: default;
+	pointer-events: none;
+}
+.szara{
+pointer-events: none;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+}
+#koniec{
+	width: 400px;
+	height: 100px;
+	background-color: black;
+	margin: 430px 520px;
+	color: white;
+	font-size: 60px;
+	line-height:100px;
+	text-align:center;
+}
+.aktywny1{
+	border: 10px solid #00067E;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 35px;
+}
+.aktywny2{
+	border: 10px solid #7E0000;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+#container_end{
+	width: 500px;
+	height: 500px;
+	margin: 200px 480px 280px 480px;
+}
+#element1{
+	width: 500px;
+	height: 200px;
+	font-size: 150px;
+	color: black;
+	text-align:center;
+	line-height:300px;
+}
+#element2_1{
+	width: 500px;
+	height: 200px;
+	font-size: 100px;
+	color: #3E5B9A;
+	text-align:center;
+	line-height:200px;
+}
+#element2_2{
+	width: 500px;
+	height: 200px;
+	font-size: 100px;
+	color: #d92624;
+	text-align:center;
+	line-height:200px;
+}
+#element2_3{
+	width: 500px;
+	height: 200px;
+	font-size: 100px;
+	color: black;
+	text-align:center;
+	line-height:200px;
+}
+#element3{
+	width: 300px;
+	height: 100px;
+	font-size: 72px;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	background-color: #4ebb38;
+	margin: 0px 100px;
+	border-radius: 10px;
+}
+#element3:hover{
+	width: 300px;
+	height: 100px;
+	font-size: 76px;
+	color: white;
+	text-align: center;
+	line-height: 100px;
+	background-color: #45A631;
+	cursor: pointer;
+	margin: 0px 100px;
+	border-radius: 10px;
+}
+.dez{
+	pointer-events: none;
+}
